@@ -1,0 +1,47 @@
+body {
+    margin: 5%;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  width: 30%;
+}
+
+#draw {
+  border: solid 5px #000;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.suit {
+  width: 15rem;
+  flex-wrap: wrap;
+}
+
+.suit img {
+  padding:.3rem;
+  width: 15%;
+}
+
+.player {
+  border: solid 2px #000;
+  width: 15rem;
+  text-align: center;
+}
